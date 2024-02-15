@@ -1,8 +1,8 @@
 // Escopo de variáveis com let e const
-let movie = 'Lord of the Rings';
+let movie = 'Lord of the Rings'; // escopo global
 // var movie = 'Batman vs. Superman'; // vai dar erro, pois movie já foi declarada
 function starWarsFan() {
-    const movie = 'The Empire Strikes Back';
+    const movie = 'The Empire Strikes Back'; // escopo local
     return movie;
 }
 
